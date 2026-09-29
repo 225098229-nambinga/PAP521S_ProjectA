@@ -13,19 +13,16 @@
 
 ---
 
-## 1. Group Number
-
-**Group Number:** Group [X]
 
 ---
 
-## 2. Group Members
+## 1. Group Members
 
 | # | Student Name        | Student Number | Primary Responsibility                        |
 |---|---------------------|----------------|-----------------------------------------------|
 | 1 | [Full Name]         | [Number]       | Employee Management                            |
 | 2 | [Full Name]         | [Number]       | Budget Management                              |
-| 3 | [Full Name]         | [Number]       | Supplier Management                            |
+| 3 | Paulina Gabriel        | 225031981      | Supplier Management                            |
 | 4 | [Full Name]         | [Number]       | Asset Management                               |
 | 5 | [Full Name]         | [Number]       | Reports                                        |
 | 6 | [Full Name]         | [Number]       | Functions, Integration and Validation          |
@@ -33,7 +30,7 @@
 
 ---
 
-## 3. Project Description
+## 2. Project Description
 
 The **Municipal Financial Management System (MFMS)** is a menu-driven C
 application developed as **Project A** for PAP521S – Programming in Practice
@@ -64,10 +61,10 @@ Project A follows the flow:
 
 ---
 
-## 4. System Features
+## 3. System Features
 
 The MFMS is divided into the following modules:
 
-### 4.1 Main Menu
+### 3.1 Main Menu
 The system starts with a clear, menu-driven interface:
     
