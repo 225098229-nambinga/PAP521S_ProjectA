@@ -1,1 +1,73 @@
 # PAP521S_ProjectA
+# PAP521S Project A — Municipal Financial Management System (MFMS)
+
+**Course:** PAP521S – Programming in Practice
+**Programming Language:** ANSI C (C99)
+**Development Environment:** Visual Studio Code + GCC
+**Version Control:** Git & GitHub
+**Project Type:** Group Project
+**Project A Stage:** Foundation System
+**Group Size:** 7 students
+**Submission:** Moodle + GitHub Repository
+**Due Date:** 02 October 2026
+
+---
+
+## 1. Group Number
+
+**Group Number:** Group [X]
+
+---
+
+## 2. Group Members
+
+| # | Student Name        | Student Number | Primary Responsibility                        |
+|---|---------------------|----------------|-----------------------------------------------|
+| 1 | [Full Name]         | [Number]       | Employee Management                            |
+| 2 | [Full Name]         | [Number]       | Budget Management                              |
+| 3 | [Full Name]         | [Number]       | Supplier Management                            |
+| 4 | [Full Name]         | [Number]       | Asset Management                               |
+| 5 | [Full Name]         | [Number]       | Reports                                        |
+| 6 | [Full Name]         | [Number]       | Functions, Integration and Validation          |
+| 7 | [Full Name]         | [Number]       | Testing, Documentation and Git Coordination    |
+
+---
+
+## 3. Project Description
+
+The **Municipal Financial Management System (MFMS)** is a menu-driven C
+application developed as **Project A** for PAP521S – Programming in Practice
+at the Namibia University of Science and Technology (NUST).
+
+The purpose of Project A is to deliver the **foundation version** of a system
+that a municipality could use to manage its core administrative and financial
+information. The system is built entirely in **ANSI C (C99)** and applies the
+programming concepts covered in Weeks 1–8 of the course:
+
+- Variables and data types
+- Input and output
+- Arithmetic, relational and logical operators
+- Decision-making (`if`, `if-else`, `switch`)
+- Loops (`for`, `while`, `do…while`)
+- Arrays
+- Strings and standard string functions
+- Functions (declarations, definitions, parameters, return values)
+
+The system is intentionally **modular** — each major area of the municipality
+(employees, budgets, suppliers, assets, reports) is implemented as its own
+module with its own source and header file. This makes the code easier to
+read, test, maintain, and extend in Project B.
+
+Project A follows the flow:
+
+> **INPUT → PROCESSING → STORAGE → SEARCH → CALCULATION → OUTPUT**
+
+---
+
+## 4. System Features
+
+The MFMS is divided into the following modules:
+
+### 4.1 Main Menu
+The system starts with a clear, menu-driven interface:
+    
