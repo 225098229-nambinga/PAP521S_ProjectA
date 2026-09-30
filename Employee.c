@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <string.h>
+#include "Employee.h"
 
 #define MAX 100   // Maximum employees we can store
 
-// Arrays to hold employee details. One row per employee
+// Arrays to hold employee details
 int   empID[MAX];
 char  empName[MAX][50];
 char  empDept[MAX][50];
@@ -22,8 +23,8 @@ float calculateSalary(float basic, float housing, float transport)
 }
 
 
-// Looking for an employee by ID
-// Returns the position in the array or -1 if not found
+// Looking for an employee by ID.
+// Returns the position in the array or -1 if not found.
 int findEmployee(int searchID)
 {
     for (int i = 0; i < empCount; i++) {
@@ -131,7 +132,7 @@ void displayEmployees()
 }
 
 
-// Search by ID and show that employee's details
+// Search by ID and show that employee details
 void searchEmployee()
 {
     if (empCount == 0) {
@@ -153,13 +154,15 @@ void searchEmployee()
     }
 
     printf("\nEmployee Found:\n");
-    printf("ID: %d\n",  empID[index]);
-    printf("Name: %s\n", empName[index]);
-    printf("Department: %s\n", empDept[index]);
-    printf("Position: %s\n",empPosition[index]);
-    printf("Phone:  %s\n",  empPhone[index]);
-    printf("Basic:  %.2f\n", empBasic[index]);
-    printf("Housing:  %.2f\n", empHousing[index]);
-    printf("Transport: %.2f\n", empTransport[index]);
-    printf("Total: %.2f\n", calculateSalary(empBasic[index], empHousing[index], empTransport[index]));
-}
+    printf("ID:         %d\n",   empID[index]);
+    printf("Name:       %s\n",   empName[index]);
+    printf("Department: %s\n",   empDept[index]);
+    printf("Position:   %s\n",   empPosition[index]);
+    printf("Phone:      %s\n",   empPhone[index]);
+    printf("Basic:      %.2f\n", empBasic[index]);
+    printf("Housing:    %.2f\n", empHousing[index]);
+    printf("Transport:  %.2f\n", empTransport[index]);
+    printf("Total:      %.2f\n", calculateSalary(empBasic[index], empHousing[index], empTransport[index]));
+} 
+
+
