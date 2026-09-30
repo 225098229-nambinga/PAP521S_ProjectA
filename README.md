@@ -7,7 +7,6 @@ Development Environment: Visual Studio Code + GCC
 Version Control: Git & GitHub
 Project Type: Group Project
 Project A Stage: Foundation System
-Group Size: 7 students
 Submission:Moodle + GitHub Repository
 Due Date: 02 October 2026
 
