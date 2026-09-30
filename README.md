@@ -17,7 +17,7 @@ Due Date: 02 October 2026
 | # | Student Name        | Student Number | Primary Responsibility                        |
 |---|---------------------|----------------|-----------------------------------------------|
 | 1 | Iita Oiva Mekondjo  | 225018268      | Employee Management                            |
-| 2 | [Full Name]         | [Number]       | Budget Management                              |
+| 2 | Kambala Victoria M.N| 225022133      | Budget Management                              |
 | 3 | Paulina Gabriel     | 225031981      | Supplier Management                            |
 | 4 | [Full Name]         | [Number]       | Asset Management                               |
 | 5 | Leena Kagola        | 225034123      | Reports                                        |
