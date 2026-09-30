@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "suppliers.h"
+#include "supplier.h"
 
 char supplierID[MAX_SUPPLIERS][ID_LEN];
 char supplierName[MAX_SUPPLIERS][NAME_LEN];
