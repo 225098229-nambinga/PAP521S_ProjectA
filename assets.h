@@ -1,22 +1,25 @@
 #ifndef ASSET_H
 #define ASSET_H
 
-#define MAX_ASSET 50
+#define MAX_ASSETS 50
 
-/* Parallel arrays */
-extern char  assetID[MAX_ASSET][20];
-extern char  assetName[MAX_ASSET][50];
-extern char  assetType[MAX_ASSET][30];
-extern float assetValue[MAX_ASSET];
-extern char  assetDept[MAX_ASSET][50];
-extern char  assetCondition[MAX_ASSET][30];
-extern int   assetCount;
+typedef struct {
+	int assetID;
+	char assetName[50];
+	char assetType[30];
+	float purchaseValue;
+	char department[50];
+	char condition[30];
+} Asset;
+
+extern Asset assets[MAX_ASSETS];
+extern int assetCount;
 
 /* Function prototypes */
 void assetMenu(void);
 void addAsset(void);
 void displayAssets(void);
 void searchAsset(void);
-int  findAsset(char id[]);
+int findAsset(int id);
 
 #endif
