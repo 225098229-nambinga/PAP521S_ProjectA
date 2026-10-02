@@ -19,7 +19,7 @@ Due Date: 02 October 2026
 | 1 | Iita Oiva Mekondjo  | 225018268      | Employee Management                            |
 | 2 | Kambala Victoria M.N| 225022133      | Budget Management                              |
 | 3 | Paulina Gabriel     | 225031981      | Supplier Management                            |
-| 4 | [Full Name]         | [Number]       | Asset Management                               |
+| 4 | Haundapiti Max.N        | 225147181      | Asset Management                               |
 | 5 | Leena Kagola        | 225034123      | Reports                                        |
 | 6 | Esra-Gandja Shigwedha   | 225054876    | Functions, Integration and Validation          |
 | 7 | Nambinga Mwene Etuhole  | 225098229    | Testing, Documentation and Git Coordination    |
