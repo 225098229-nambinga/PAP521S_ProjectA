@@ -142,7 +142,7 @@ int main(void)
 				reportsMenu();
 				break;
 			case 0:
-				printf("Goodbye.\n");
+				printf("Thanks For Using The Management System.\n");
 				break;
 			default:
 				printf("Invalid Input. Enter Input Again.\n");
