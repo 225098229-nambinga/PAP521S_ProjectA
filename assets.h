@@ -15,7 +15,7 @@ typedef struct {
 extern Asset assets[MAX_ASSETS];
 extern int assetCount;
 
-/* Function prototypes */
+// Function prototypes 
 void assetMenu(void);
 void addAsset(void);
 void displayAssets(void);
