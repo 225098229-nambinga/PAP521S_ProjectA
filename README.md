@@ -1,7 +1,7 @@
 # PAP521S Project A — Municipal Financial Management System (MFMS)
 
 **Course:** PAP521S – Programming in Practice
-**Programming Language:** C (C99)
+**Programming Language:** C 
 **Development Environment:** Visual Studio Code + GCC
 **Version Control:** Git & GitHub
 **Project Type:** Group Project
