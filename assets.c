@@ -7,7 +7,6 @@ Asset assets[MAX_ASSETS];
 int assetCount = 0;
 
 
-/* Add a new asset */
 void addAsset()
 {
     if (assetCount >= MAX_ASSETS)
@@ -69,7 +68,6 @@ void addAsset()
 }
 
 
-/* Display all assets */
 void displayAssets()
 {
     if (assetCount == 0)
@@ -94,8 +92,6 @@ void displayAssets()
     printf("\n====================================\n");
 }
 
-
-/* Search for an asset */
 void searchAsset()
 {
     int id;
@@ -123,7 +119,13 @@ void searchAsset()
         }
     }
 
-    void assetMenu(void)
+    if (!found)
+    {
+        printf("\nAsset with ID %d was not found.\n", id);
+    }
+}
+
+void assetMenu(void)
 {
     int choice;
 
@@ -149,8 +151,4 @@ void searchAsset()
     } while (choice != 0);
 }
 
-    if (!found)
-    {
-        printf("\nAsset with ID %d was not found.\n", id);
-    }
-}
+
