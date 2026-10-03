@@ -2,11 +2,11 @@
 
 ## Summary
 
-| ID | Module | Owner | Severity | Status |
+| ID | Module | Owner | Status |
 |----|--------|-------|----------|--------|
-| BUG-01 | budget.c | Kambala Victoria M.N | Low | FIXED |
-| BUG-02 | reports.c / budget.h | Leena Kagola + Kambala Victoria | High | FIXED |
-| BUG-03 | assets.c | Haundapiti Max.N | High | FIXED |
+| BUG-01 | budget.c | Kambala Victoria M.N  | FIXED |
+| BUG-02 | reports.c / budget.h | Leena Kagola + Kambala Victoria| FIXED |
+| BUG-03 | assets.c | Haundapiti Max.N | FIXED |
 
 All bugs identified during testing have been resolved. The project now
 compiles successfully into a working executable.
@@ -18,7 +18,6 @@ compiles successfully into a working executable.
 - **File:** budget.c
 - **Line:** 19
 - **Owner:** Kambala Victoria M.N (225022133)
-- **Severity:** Low (warning, not error)
 - **Description:** The scanf call used the & operator on an array element
   that is already an address:
       scanf("%s", &departmentNames[budgetCount]);
@@ -35,7 +34,6 @@ compiles successfully into a working executable.
 - **Files:** reports.c, budget.h
 - **Lines:** 117, 127, 135 of reports.c
 - **Owners:** Leena Kagola (225034123) + Kambala Victoria M.N (225022133)
-- **Severity:** High (blocked compilation)
 - **Description:** reports.c used four variables defined in budget.c but
   not visible from other files:
   - budgetCount
@@ -63,7 +61,6 @@ compiles successfully into a working executable.
 
 - **File:** assets.c
 - **Owner:** Haundapiti Max.N (225147181)
-- **Severity:** High (linker error, blocked the full build)
 - **Description:** main.c called assetMenu(), declared in assets.h, but no
   definition of the function existed in assets.c. Full build failed with:
       undefined reference to `assetMenu'
