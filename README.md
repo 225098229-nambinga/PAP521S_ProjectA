@@ -7,7 +7,6 @@
 **Project Type:** Group Project
 **Submission:** Moodle + GitHub Repository
 **Due Date:** 02 October 2026
-
 ---
 
 ## 1. Group Members
