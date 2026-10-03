@@ -96,5 +96,7 @@ averages, highest/lowest values and department summaries.
 
 The system starts with a clear, menu-driven interface:
 
+---
+
 ##5. Github repository URL : https://github.com/225098229-nambinga/PAP521S_ProjectA
     
