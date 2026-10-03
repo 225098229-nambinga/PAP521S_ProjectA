@@ -16,7 +16,7 @@ void addBudget() {
     }
 
     printf("Enter Department Name: ");
-    scanf("%s", &departmentNames[budgetCount]);
+    scanf("%s", departmentNames[budgetCount]);
     
     do
     {
