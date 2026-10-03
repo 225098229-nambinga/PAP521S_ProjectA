@@ -6,7 +6,7 @@
 **Version Control:** Git & GitHub
 **Project Type:** Group Project
 **Submission:** Moodle + GitHub Repository
-**Due Date:** 02 October 2026
+**Due Date:** 04 October 2026
 
 ---
 
