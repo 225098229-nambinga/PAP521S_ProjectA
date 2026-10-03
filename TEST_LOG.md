@@ -9,9 +9,9 @@
 
 ## 1. Purpose
 
-This document records the results of compilation and functional testing
-performed on each module of the Municipal Financial Management System (MFMS)
-before submission of Project A.
+This document records the results of compilation and integration testing
+performed on the Municipal Financial Management System (MFMS) before
+submission of Project A.
 
 Each module was compiled individually using the command:
 
@@ -29,10 +29,10 @@ which contain errors that must be fixed before the project can be built.
 | 1 | suppliers.c | Paulina Gabriel | PASS | No errors or warnings |
 | 2 | Employee.c | Lita Oiva Mekondjo | PASS | No errors or warnings |
 | 3 | budget.c | Kambala Victoria M.N | FIXED | Line 19 scanf had extra &; corrected |
-| 4 | assets.c | Haundapiti Max.N | PASS | No errors or warnings |
-| 5 | reports.c | Leena Kagola | FAIL | Cannot see budget variables (Bug 2) |
+| 4 | assets.c | Haundapiti Max.N | FIXED | assetMenu() added; compiles cleanly |
+| 5 | reports.c | Leena Kagola | FIXED | Now sees budget variables via budget.h |
 | 6 | main.c | Esra-Gandja Shigwedha | PASS | No errors or warnings |
-| 7 | Full project | All members | FAIL | Blocked by reports.c |
+| 7 | Full project | All members | PASS | mfms.exe produced successfully |
 
 ---
 
@@ -44,22 +44,22 @@ which contain errors that must be fixed before the project can be built.
 - **Fix:** Removed the &
 - **Status:** Fixed and verified
 
-### BUG-02 — reports.c Cannot Access Budget Variables (OPEN)
+### BUG-02 — reports.c Cannot Access Budget Variables (FIXED)
 - **Owners:** Leena Kagola + Kambala Victoria M.N
-- **Issue:** reports.c uses budgetCount, allocatedBudget[], expenditure[],
-  departmentNames[][] which are only defined in budget.c
-- **Fix:** Declare these as extern in budget.h and include it in reports.c
-- **Status:** Reported, awaiting fix
+- **Issue:** reports.c used budgetCount, allocatedBudget[], expenditure[],
+  departmentNames[][] which were only defined in budget.c
+- **Fix:** Added extern declarations to budget.h and included it in reports.c
+- **Status:** Fixed and verified
 
-### BUG-03 — assets.c Missing assetMenu() (OPEN)
+### BUG-03 — assets.c Missing assetMenu() (FIXED)
 - **Owner:** Haundapiti Max.N
-- **Issue:** main.c calls assetMenu() but assets.c does not define it
-- **Fix:** Add assetMenu() function to assets.c
-- **Status:** Reported, awaiting fix
+- **Issue:** main.c called assetMenu() but assets.c did not define it
+- **Fix:** Added assetMenu() function to assets.c
+- **Status:** Fixed and verified
 
 ---
 
-## 4. Functional Test Plan (After Build Succeeds)
+## 4. Functional Test Plan
 
 | # | Menu Option | Test Case | Expected Result |
 |---|-------------|-----------|-----------------|
@@ -79,11 +79,7 @@ which contain errors that must be fixed before the project can be built.
 
 ## 5. Summary
 
-- 4 of 5 modules compile cleanly
-- 1 warning fixed after being reported (Bug 1)
-- 2 bugs remain open (Bug 2, Bug 3)
-- Full build and functional testing pending until Bugs 2 and 3 are resolved
-
----
-
-*End of Test Log.*
+- 6 of 6 modules compile cleanly
+- All 3 identified bugs have been fixed and verified
+- The full project compiles successfully into mfms.exe
+- Functional testing is ready to be performed
