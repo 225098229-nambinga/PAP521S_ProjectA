@@ -8,11 +8,11 @@
 
 ## Summary
 
-| ID | Module | Owner | Severity | Status |
-|----|--------|-------|----------|--------|
-| BUG-01 | budget.c | Kambala Victoria M.N | Low | FIXED |
-| BUG-02 | reports.c / budget.h | Leena Kagola + Kambala Victoria | High | OPEN |
-| BUG-03 | assets.c | Haundapiti Max.N | High | OPEN |
+| ID | Module | Owner | Status |
+|----|--------|-------|--------|
+| BUG-01 | budget.c | Kambala Victoria M.N | FIXED |
+| BUG-02 | reports.c / budget.h | Leena Kagola + Kambala Victoria| OPEN |
+| BUG-03 | assets.c | Haundapiti Max.N | OPEN |
 
 ---
 
@@ -21,7 +21,6 @@
 - File: budget.c
 - Line: 19
 - Owner: Kambala Victoria M.N (225022133)
-- Severity: Low (warning)
 - Description: Extra & used on an array element.
 - Original: scanf("%s", &departmentNames[budgetCount]);
 - Fix: scanf("%s", departmentNames[budgetCount]);
@@ -68,6 +67,3 @@ Full build command:
 
     gcc -std=c99 -Wall main.c Employee.c budget.c suppliers.c assets.c reports.c -o mfms.exe
 
----
-
-*End of Bug Tracking Log.*
