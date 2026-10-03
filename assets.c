@@ -123,6 +123,32 @@ void searchAsset()
         }
     }
 
+    void assetMenu(void)
+{
+    int choice;
+
+    do {
+        printf("\n========================================\n");
+        printf("         ASSET MANAGEMENT\n");
+        printf("========================================\n");
+        printf("1. Add Asset\n");
+        printf("2. Display Assets\n");
+        printf("3. Search Asset\n");
+        printf("0. Back to Main Menu\n");
+        printf("Choice: ");
+        scanf("%d", &choice);
+        while (getchar() != '\n');
+
+        switch (choice) {
+            case 1: addAsset();      break;
+            case 2: displayAssets(); break;
+            case 3: searchAsset();   break;
+            case 0: break;
+            default: printf("Invalid choice.\n");
+        }
+    } while (choice != 0);
+}
+
     if (!found)
     {
         printf("\nAsset with ID %d was not found.\n", id);
