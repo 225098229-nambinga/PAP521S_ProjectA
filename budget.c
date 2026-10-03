@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
-#define MAX_DEPARTMENTS 50
+#include "budget.h"
 
 char departmentNames[MAX_DEPARTMENTS][50];
 float allocatedBudget[MAX_DEPARTMENTS];
