@@ -3,7 +3,7 @@
 ## Summary
 
 | ID | Module | Owner | Status |
-|----|--------|-------|----------|--------|
+|----|--------|-------|----------|
 | BUG-01 | budget.c | Kambala Victoria M.N  | FIXED |
 | BUG-02 | reports.c / budget.h | Leena Kagola + Kambala Victoria| FIXED |
 | BUG-03 | assets.c | Haundapiti Max.N | FIXED |
