@@ -1,12 +1,5 @@
 # TEST LOG — Municipal Financial Management System (PAP521S Project A)
 
-**Tester:** Nambinga Mwene Etuhole (225098229)
-**Role:** Testing, Documentation and Git Coordination
-**Date:** 3 October 2026
-**Environment:** Windows, GCC (MinGW), VS Code
-
----
-
 ## 1. Purpose
 
 This document records the results of compilation and integration testing
